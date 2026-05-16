@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liokaftos Barbershop – Ανδρικό Κουρείο</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="logo">
+        <img src="images/logo.png" alt="Liokaftos Barbershop" class="logo-img" />
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">Σχετικά</a></li>
+        <li><a href="#services">Υπηρεσίες</a></li>
+        <li><a href="#team">Ομάδα</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Επικοινωνία</a></li>
+        <li><a href="#contact" class="nav-cta">Κλείσε Ραντεβού</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Ανδρικό Κουρείο · Αθήνα</p>
+      <h1 class="hero-title">
+        Η Τέχνη<br/>
+        <span class="gold">του Καλού</span><br/>
+        Κουρέματος
+      </h1>
+      <p class="hero-desc">Επαγγελματική περιποίηση, κλασικές τεχνικές, αποτέλεσμα που μιλά από μόνο του.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Κλείσε Ραντεβού</a>
+        <a href="#services" class="btn btn-outline">Οι Υπηρεσίες μας</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span></span>
+    </div>
+    <!-- Decorative barberpole -->
+    <div class="barberpole">
+      <div class="pole-stripe"></div>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <section class="stats-bar">
+    <div class="container">
+      <div class="stat">
+        <span class="stat-num">4</span>
+        <span class="stat-label">Επαγγελματίες Κουρείς</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">200+</span>
+        <span class="stat-label">Ευχαριστημένοι Πελάτες</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">100%</span>
+        <span class="stat-label">Εγγύηση Ποιότητας</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap">
+          <div class="about-image">
+            <img src="images/barber-shop-photo.webp" alt="Liokaftos Hair Studio" class="about-shop-photo" />
+          </div>
+        </div>
+        <div class="about-content">
+          <p class="section-eyebrow">Ποιοι Είμαστε</p>
+          <h2 class="section-title">Παράδοση &amp; Τέχνη<br/>στο <span class="gold">Κούρεμα</span></h2>
+          <p class="about-text">Το <strong>Liokaftos Barbershop</strong> είναι ένας χώρος όπου η παραδοσιακή τέχνη του κουρείου συναντά τη σύγχρονη αισθητική. Προσφέρουμε υψηλής ποιότητας υπηρεσίες περιποίησης για τον σύγχρονο άντρα.</p>
+          <p class="about-text">Η ομάδα μας αποτελείται από 4 έμπειρους και πεπαιδευμένους κουρείς που αγαπούν αυτό που κάνουν και φέρνουν πάντα το καλύτερο αποτέλεσμα για κάθε πελάτη.</p>
+          <ul class="about-features">
+            <li><span class="feat-icon">✓</span> Κλασικές &amp; σύγχρονες τεχνικές κουρέματος</li>
+            <li><span class="feat-icon">✓</span> Επαγγελματική περιποίηση γενειάδας</li>
+            <li><span class="feat-icon">✓</span> Premium προϊόντα περιποίησης</li>
+            <li><span class="feat-icon">✓</span> Χαλαρωτική ατμόσφαιρα &amp; εμπειρία</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Επικοινωνία</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services section section-dark">
+    <div class="container">
+      <div class="section-header centered">
+        <p class="section-eyebrow">Τι Προσφέρουμε</p>
+        <h2 class="section-title">Οι Υπηρεσίες <span class="gold">μας</span></h2>
+        <p class="section-subtitle">Κάθε υπηρεσία προσφέρεται με ακρίβεια, φροντίδα και αφοσίωση στη λεπτομέρεια.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">✂</div>
+          <h3>Κούρεμα</h3>
+          <p>Κλασικό ή σύγχρονο κούρεμα προσαρμοσμένο στα χαρακτηριστικά σου. Fade, crop, undercut και πολλά άλλα.</p>
+          <div class="service-price">Από <strong>€12</strong></div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🪒</div>
+          <h3>Ξύρισμα</h3>
+          <p>Παραδοσιακό ξύρισμα με ζεστή πετσέτα και straight razor για τέλειο αποτέλεσμα.</p>
+          <div class="service-price">Από <strong>€10</strong></div>
+        </div>
+        <div class="service-card featured">
+          <div class="service-badge">Δημοφιλές</div>
+          <div class="service-icon">✂🪒</div>
+          <h3>Κούρεμα + Γένια</h3>
+          <p>Το πλήρες πακέτο περιποίησης. Κούρεμα και styling γενειάδας για το τέλειο look.</p>
+          <div class="service-price">Από <strong>€20</strong></div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">💈</div>
+          <h3>Γένια &amp; Μουστάκι</h3>
+          <p>Περιποίηση, διαμόρφωση και styling γενειάδας &amp; μουστακιού με ακρίβεια.</p>
+          <div class="service-price">Από <strong>€8</strong></div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">👦</div>
+          <h3>Κούρεμα Παιδιών</h3>
+          <p>Απαλό και υπομονετικό κούρεμα για τα μικρά μας αγόρια (έως 12 ετών).</p>
+          <div class="service-price">Από <strong>€8</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="team section">
+    <div class="container">
+      <div class="section-header centered">
+        <p class="section-eyebrow">Οι Άνθρωποί μας</p>
+        <h2 class="section-title">Γνώρισε την <span class="gold">Ομάδα</span></h2>
+        <p class="section-subtitle">4 έμπειροι επαγγελματίες κουρείς με πάθος για την τέχνη τους.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-img">
+            <img src="images/nikos-liokaftos.webp" alt="Νίκος Λιοκάφτος" class="team-photo" />
+            <div class="team-overlay">
+              <div class="team-social">
+                <a href="https://www.instagram.com/nik.liokaftos_hair/" target="_blank" rel="noopener" aria-label="Instagram">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Νίκος Λιόκαφτος</h3>
+            <p class="team-role">Ιδιοκτήτης &amp; Master Barber</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-img">
+            <img src="images/nikos.webp" alt="Νίκος" class="team-photo" />
+            <div class="team-overlay">
+              <div class="team-social">
+                <a href="https://www.instagram.com/livas_nik/" target="_blank" rel="noopener" aria-label="Instagram">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Νίκος</h3>
+            <p class="team-role">Barber</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-img">
+            <img src="images/aggelos.webp" alt="Άγγελος" class="team-photo" />
+            <div class="team-overlay">
+              <div class="team-social">
+                <a href="https://www.instagram.com/sorovos/" target="_blank" rel="noopener" aria-label="Instagram">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Άγγελος</h3>
+            <p class="team-role">Barber</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-img">
+            <img src="images/marinos.webp" alt="Μαρίνος" class="team-photo" />
+            <div class="team-overlay">
+              <div class="team-social">
+                <a href="https://www.instagram.com/monkey_cutz/" target="_blank" rel="noopener" aria-label="Instagram">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Μαρίνος</h3>
+            <p class="team-role">Barber</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="gallery section section-dark">
+    <div class="container">
+      <div class="section-header centered">
+        <p class="section-eyebrow">Το Έργο μας</p>
+        <h2 class="section-title">Gallery <span class="gold">&amp; Αποτελέσματα</span></h2>
+        <p class="section-subtitle">Κάθε εικόνα λέει τη δική της ιστορία.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item--tall">
+          <img src="images/barber-shop-interiot.jpg" alt="Liokaftos Interior" class="gallery-photo" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/barber-shop-photo.webp" alt="Liokaftos Exterior" class="gallery-photo" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/barber-shop-logo-interior.jpg" alt="Liokaftos Logo Interior" class="gallery-photo" />
+        </div>
+        <div class="gallery-item gallery-item--wide">
+          <div class="gallery-placeholder">
+            <span>📷</span>
+            <p>Haircut Photos — Coming Soon</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span>📷</span>
+            <p>Coming Soon</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span>📷</span>
+            <p>Coming Soon</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-cta">
+        <p>Δες περισσότερα στο Instagram μας</p>
+        <a href="https://www.instagram.com/liokaftos_hairstudio" target="_blank" rel="noopener" class="btn btn-outline">@liokaftos_hairstudio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials / Google Reviews -->
+  <section class="testimonials section" id="reviews-section">
+    <div class="container">
+      <div class="section-header centered">
+        <p class="section-eyebrow">Λένε για εμάς</p>
+        <h2 class="section-title">Τι Λένε οι <span class="gold">Πελάτες μας</span></h2>
+      </div>
+
+      <!-- Google overall rating summary (shown when API loads) -->
+      <div class="reviews-summary" id="reviews-summary" style="display:none">
+        <div class="reviews-rating-big" id="reviews-rating-big"></div>
+        <div class="reviews-stars-row" id="reviews-stars-row"></div>
+        <div class="reviews-count" id="reviews-count"></div>
+        <a href="#" id="reviews-link" target="_blank" rel="noopener" class="reviews-write-link">Γράψε κριτική ↗</a>
+      </div>
+
+      <!-- Reviews grid — filled dynamically or shows static fallback -->
+      <div class="testimonials-grid" id="testimonials-grid">
+        <!-- Loading skeleton -->
+        <div class="review-skeleton"><div class="sk-line sk-short"></div><div class="sk-line"></div><div class="sk-line"></div><div class="sk-line sk-medium"></div></div>
+        <div class="review-skeleton"><div class="sk-line sk-short"></div><div class="sk-line"></div><div class="sk-line"></div><div class="sk-line sk-medium"></div></div>
+        <div class="review-skeleton"><div class="sk-line sk-short"></div><div class="sk-line"></div><div class="sk-line"></div><div class="sk-line sk-medium"></div></div>
+      </div>
+
+      <!-- Google badge -->
+      <div class="google-badge" id="google-badge" style="display:none">
+        <svg width="18" height="18" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+          <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+          <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/>
+          <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+        </svg>
+        <span>Κριτικές από Google</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact section section-dark">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="section-eyebrow">Ελάτε να μας Βρείτε</p>
+          <h2 class="section-title">Κλείστε το <span class="gold">Ραντεβού σας</span></h2>
+          <p class="contact-desc">Επικοινωνήστε μαζί μας για να κλείσετε το ραντεβού σας ή περάστε απ' ευθείας στο κατάστημα.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <strong>Διεύθυνση</strong>
+                <p>Αγωνιστών Στρατοπέδου Χαϊδαρίου 87–89<br/>Χαϊδάρι 124 61</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <strong>Τηλέφωνο</strong>
+                <p><a href="tel:+302105326096">210 532 6096</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">🕐</div>
+              <div>
+                <strong>Ωράριο</strong>
+                <p>Τρίτη – Παρασκευή: 10:00 – 20:00</p>
+                <p>Σάββατο: 10:00 – 18:00</p>
+                <p>Κυριακή &amp; Δευτέρα: Κλειστά</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="https://www.instagram.com/liokaftos_hairstudio" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              Instagram
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100091967723420" target="_blank" rel="noopener" class="social-btn" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              Facebook
+            </a>
+          </div>
+        </div>
+        <div class="app-download-wrap">
+          <h3>Κλείσε <span class="gold">Ραντεβού</span> Online</h3>
+          <p class="app-download-desc">Κατέβασε την εφαρμογή Liokaftos και κλείσε το ραντεβού σου εύκολα και γρήγορα από το κινητό σου.</p>
+          <div class="qr-blocks">
+
+            <!-- Android -->
+            <div class="qr-block">
+              <div class="qr-img-wrap">
+                <img
+                  src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&format=png&data=https%3A%2F%2Fplay.google.com%2Fstore%2Fsearch%3Fq%3Dliokaftos%26c%3Dapps%26hl%3Den"
+                  alt="Android QR Code"
+                  class="qr-img"
+                  width="180" height="180"
+                />
+              </div>
+              <p class="qr-scan-hint">Σκανάρισε για Android</p>
+              <a href="https://play.google.com/store/search?q=liokaftos&c=apps&hl=en"
+                 target="_blank" rel="noopener" class="store-badge android-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.3.17.64.24.99.19l12.24-12.24L12.96 8.3 3.18 23.76zm16.7-11.33L17.1 10.8l-3.6 3.6 3.6 3.62 2.78-1.63a1.58 1.58 0 000-2.76zM2.4 1.04A1.6 1.6 0 001.5 2.5v19c0 .6.33 1.12.82 1.4L14.5 9.73 2.4 1.04zm9.32 9.97L3.17.28c-.36-.05-.7.02-.99.2L14.5 9.73l-2.78 1.28z"/></svg>
+                Google Play
+              </a>
+            </div>
+
+            <div class="qr-divider"></div>
+
+            <!-- iOS -->
+            <div class="qr-block">
+              <div class="qr-img-wrap">
+                <img
+                  src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&format=png&data=https%3A%2F%2Fapps.apple.com%2Fgr%2Fapp%2Fliokaftos%2Fid6751862732%3Fl%3Del"
+                  alt="iOS QR Code"
+                  class="qr-img"
+                  width="180" height="180"
+                />
+              </div>
+              <p class="qr-scan-hint">Σκανάρισε για iPhone</p>
+              <a href="https://apps.apple.com/gr/app/liokaftos/id6751862732?l=el"
+                 target="_blank" rel="noopener" class="store-badge ios-badge">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                App Store
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Maps -->
+  <div class="map-section">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.5676042119694!2d23.661657199999997!3d38.010545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2f2801556a5a7135%3A0x4b5dea077cdf7059!2sLiokaftos%20Hair%20Studio!5e0!3m2!1sen!2sgr!4v1771767087320!5m2!1sen!2sgr"
+      width="400" height="300"
+      style="border:0; display:block;"
+      allowfullscreen
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="Liokaftos Hair Studio">
+    </iframe>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <img src="images/logo.png" alt="Liokaftos Barbershop" class="logo-img" />
+          </a>
+          <p>Επαγγελματική περιποίηση για τον σύγχρονο άντρα. Εμπιστευτείτε μας με το στυλ σας.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Πλοήγηση</h4>
+          <ul>
+            <li><a href="#about">Σχετικά</a></li>
+            <li><a href="#services">Υπηρεσίες</a></li>
+            <li><a href="#team">Ομάδα</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Επικοινωνία</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Υπηρεσίες</h4>
+          <ul>
+            <li><a href="#services">Κούρεμα</a></li>
+            <li><a href="#services">Ξύρισμα</a></li>
+            <li><a href="#services">Γένια &amp; Μουστάκι</a></li>
+            <li><a href="#services">Head Massage</a></li>
+            <li><a href="#services">Παιδικό Κούρεμα</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Επικοινωνία</h4>
+          <p>📍 Αγωνιστών Στρατοπέδου Χαϊδαρίου 87–89, Χαϊδάρι 124 61</p>
+          <p>📞 <a href="tel:+302105326096">210 532 6096</a></p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/liokaftos_hairstudio" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100091967723420" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Liokaftos Barbershop. Όλα τα δικαιώματα διατηρούνται.</p>
+        <p>Made by Konstantinos Lyveras</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
